@@ -1107,7 +1107,7 @@ main {
   .rules_w .rules_box ul li ol li span {
     font-size: 2.5vw;
     margin-left: -2.5vw;
-    margin-right: -2.5vw;
+    margin-right: 1vw;
   }
 }
 
