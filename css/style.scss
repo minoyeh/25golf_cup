@@ -248,7 +248,7 @@ header{
   width:69.5%;//1335
   position: relative;
   text-align: center;
-  margin:0% auto; outline: 1px solid #f00;
+  margin:0% auto; //outline: 1px solid #f00;
   padding:10% 0; 
   @media (max-width: 768px) {      
     width:90%;
@@ -282,7 +282,7 @@ header{
   width:69.5%;//1335
   position: relative;
   text-align: center;
-  margin:0% auto; outline: 1px solid #f00;
+  margin:0% auto; //outline: 1px solid #f00;
   padding:2.5% 0 8%; 
   @media (max-width: 768px) {      
     width:90%;
@@ -537,7 +537,7 @@ header{
 .site_w{
   width:85.2%;//1636
   position: relative;
-  margin:0 auto; outline: 1px solid #f00;
+  margin:0 auto; //outline: 1px solid #f00;
   padding:5% 0;
   @media (max-width: 768px) {      
     width:90%;
@@ -572,7 +572,7 @@ header{
     width:93.7%;//w1534
     position: relative;
     margin:-10% auto 10%;
-    z-index: 2; outline: 1px solid #f00;
+    z-index: 2; //outline: 1px solid #f00;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -695,7 +695,7 @@ header{
   width:69.2%;//w1330
   position: relative;
   margin:0 auto;
-  padding:5% 0; outline: 1px solid #f00;
+  padding:5% 0; //outline: 1px solid #f00;
   @media (max-width: 768px) {      
     width:90%;
   }
@@ -822,7 +822,7 @@ footer{
   .footer_w{
     width:70%;//w1410
     position: relative;
-    margin:0 auto; outline: 1px solid #f00;
+    margin:0 auto; //outline: 1px solid #f00;
     @media (max-width: 768px) {      
       width:90%;
     }
