@@ -262,6 +262,14 @@ header nav ul li a:hover div {
           animation: kv_title 0.75s ease-in-out 0.5s forwards;
 }
 
+@media (max-width: 768px) {
+  .kv_box h1 {
+    width: 70%;
+    left: 15%;
+    top: 30%;
+  }
+}
+
 .kv_box .kv_g {
   position: relative;
 }

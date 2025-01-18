@@ -176,6 +176,11 @@ header{
     opacity: 0;
     transform-origin: center;    
     animation: kv_title 0.75s ease-in-out 0.5s forwards;
+    @media (max-width: 768px){
+      width:70%;
+      left:15%;
+      top:30%;
+    }
   }
   .kv_g{
     position: relative;
