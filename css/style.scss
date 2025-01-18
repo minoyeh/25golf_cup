@@ -838,6 +838,7 @@ footer{
         line-height: 1.5;
         @media (max-width: 768px) {      
           font-size: 2.5vw;
+          letter-spacing: 0;
         }
         &:last-child{
           border:none;
@@ -875,6 +876,7 @@ footer{
             text-decoration: none;
             @media (max-width: 768px) {      
               font-size: 2.5vw;
+              letter-spacing: 0;
             }
           }
         }
@@ -894,6 +896,7 @@ footer{
         text-decoration: none;
         @media (max-width: 768px) {      
           font-size: 2.5vw;
+          letter-spacing: 0;
         }
       }
     }
@@ -901,148 +904,10 @@ footer{
 }
 
 
-/*---popup / 注意事項---*/
-/*---popup---*/
-.modally{
-  //max-width: 90%;
-  width:45.9%;
-  background:#fff;
-  border-radius: 30px;
-  padding: 4px;   
-  border:5px solid #333;
-  @media (max-width: 991px){
-    width:90%;
-  }
-}
-.modally-content{
-  background:#fff;
-  border-radius: 30px;
-  //padding-top:5%;
-  //@media (max-width: 992px){
-  //  padding-top:10%;
-  //}
-}
-.modally .modally-close-button{
-  display: block;
-  font-size: 50px;
-  color:#333;
-}
-.modally-wrap .modally-underlay{
-  background:rgba(35, 86, 157, 0.90);
-}
 
-/*popup / 分享圖*/
-.tel-w{
-  width:90%;
-  height: 500px;
-  margin:0% auto;
-  padding:5% 0;
-  position: relative;
-  .tel_box{
-    width:90%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; outline: 1px solid #f00;
-    .tel_info{
-      width:60%;
-      font-size: 1.05vw;
-      line-height: 1.5;
-      color: #000; outline: 1px solid #f00;
-    }
-    .btn_copy{
-      width:30%;
-      position: relative; outline: 1px solid #f00;
-      a{
-        text-decoration: none;
-        span{
-          display: inline-block;
-          width:auto;
-          font-size: 1.05vw;
-          line-height: 1.2;
-          padding: 1vw;
-          border: 1px solid #000;
-        }
-      }
-    }
-  }
-}
 
-/*popup / 活動辦法*/
-.rules-w{
-  width:90%;
-  margin:0% auto;
-  padding:5% 0;
-  position: relative;
-  
-  h2{
-    display: block;
-    width:100%;
-    font-size: 2vw;
-    font-weight: bold;
-    line-height: 1.5;
-    color:#00a0df;
-    text-align: center;
-    margin:0 auto 2%;
-    @media (max-width: 992px){
-      font-size: 4vw;
-    }
-    @media (max-width: 768px){
-      font-size: 5vw;
-    }
-    
-  }
-}
-ul.ps_text{
-  list-style-type: none;
-  display: flex;
-  flex-flow:column wrap;
-  font-size:1vw;
-  line-height: 1.5;
-  margin:0 auto 0%;
-  padding-left:2.5%;
-  li{
-    width:calc(100% - 0%);
-    list-style-type: disc;
-    font-size:1vw;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: justify;
-    color:#333;
-    margin:1% 0 1% 0%;
-    @media (max-width: 992px){
-      width:calc(100% - 0%);
-      margin:1% 0 1% 0%;
-      font-size:3vw;
-    }
-    a{
-      color:#333;
-      text-decoration:underline;
-      @media (max-width: 992px){        
-        font-size:3vw;
-      }
-    }
-    ol{
-      list-style-type: decimal-leading-zero;
-      padding-left:5%;
-      li{
-        width:calc(100% - 0%);
-        list-style-type: decimal-leading-zero;
-        font-size:1vw;
-        font-weight: 400;
-        line-height: 1.5;
-        text-align: justify;
-        color:#333;
-        margin:1% 0 1% 0%;
-        @media (max-width: 992px){   
-          width:calc(100% - 0%);     
-          font-size:3vw;
-          margin:2% 0;
-        }
-      }
-    }
-  }
-}
+
+
 
 
 /*-------------------------------------------------------------*/
