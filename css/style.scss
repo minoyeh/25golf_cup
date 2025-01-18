@@ -903,7 +903,12 @@ footer{
   }
 }
 
-
+.gototop{
+  width:3.5vw;
+  @media (max-width: 768px) {      
+    width:5vw;
+  }
+}
 
 
 

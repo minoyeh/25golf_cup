@@ -1286,6 +1286,16 @@ footer .footer_w .fb_box a {
   }
 }
 
+.gototop {
+  width: 3.5vw;
+}
+
+@media (max-width: 768px) {
+  .gototop {
+    width: 5vw;
+  }
+}
+
 /*-------------------------------------------------------------*/
 .overlay {
   width: 100%;
