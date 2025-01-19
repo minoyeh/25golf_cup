@@ -97,7 +97,7 @@ p {
 
 @media (max-width: 768px) {
   p {
-    font-size: 3vw;
+    font-size: 3.5vw;
     line-height: 1.5;
   }
 }
