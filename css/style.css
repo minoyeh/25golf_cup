@@ -1336,6 +1336,7 @@ footer .footer_w .fb_box a {
 @media (max-width: 768px) {
   .gototop {
     width: 6.5vw;
+    bottom: 2vw;
   }
 }
 
