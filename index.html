@@ -311,9 +311,11 @@
       </div>
 
       <div class="ps_text" data-aos="fade-in">***服務費必須於支付團費時一同繳付***</div>
+      <!--
       <div class="btn_add" data-aos="fade-in">
         <a href="#footer"><img src="images/s02/btn_add.png" alt="立即報名" class=" btn_style"></a>
       </div>
+      -->
 
     </div>
   </section>
@@ -337,7 +339,12 @@
   </div>
 </footer>
 
-  
+<!---->
+  <div class="btn_buy">    
+    <a href="#footer">
+      <img src="images/btn_fixed.png" alt="立即報名">
+    </a>
+  </div>
 
  <!---->
   <button class="gototop"><img src="images/gotop.png"></button>
@@ -404,6 +411,9 @@
        $('html,body').animate({scrollTop:$('#s05').offset().top}, 800);
     });
     $('.btn_add').click(function(){
+       $('html,body').animate({scrollTop:$('#footer').offset().top}, 800);
+    });
+    $('.btn_buy').click(function(){
        $('html,body').animate({scrollTop:$('#footer').offset().top}, 800);
     });
     $('.gototop').click(function(){
