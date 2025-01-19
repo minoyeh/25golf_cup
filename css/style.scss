@@ -308,7 +308,8 @@ header{
     letter-spacing:2px;
     margin:5% auto;  
     @media (max-width: 768px) {      
-      font-size: 3vw;
+      font-size: 4vw;
+      letter-spacing: 0;
     }  
   }
   .event_info{
@@ -319,7 +320,7 @@ header{
     align-items: center;
     margin:2.5% auto;
     @media (max-width: 768px) {      
-      width:90%;
+      width:100%;
     }
     .event_box{
       position: relative;
@@ -340,7 +341,7 @@ header{
         line-height: 1.5;
         color:#043300;
         @media (max-width: 768px) {      
-          font-size: 3vw;
+          font-size: 4vw;          
         }
       }
       .date{
@@ -349,7 +350,7 @@ header{
         line-height: 1.5;
         color:#043300;
         @media (max-width: 768px) {      
-          font-size: 3vw;
+          font-size: 4vw;
         }
       }
       .club{
@@ -361,7 +362,7 @@ header{
         color:#043300;
         position: relative;
         @media (max-width: 768px) {      
-          font-size: 3vw;
+          font-size: 4vw;
         }
         &::before{
           display: block;
@@ -375,8 +376,8 @@ header{
           background:url(../images/s02/icon.png)no-repeat left top;
           background-size: 100%;
           @media (max-width: 768px) {      
-            width:3vw;
-            left:-3.5vw;
+            width:4vw;
+            left:-4vw;
           }
         }
       }
@@ -389,14 +390,14 @@ header{
     color:#134077;
     text-align: center;
     @media (max-width: 768px) {      
-      font-size: 3vw;
+      font-size: 4vw;
     }
     .ntd{
       display: inline;
       font-size: 4vw;
       font-weight: bold;
       @media (max-width: 768px) {      
-        font-size:5vw;
+        font-size:8vw;
       }
     }
     .prd_ps{
@@ -405,7 +406,7 @@ header{
       font-weight: bold;
       position: relative;
       @media (max-width: 768px) {      
-        font-size: 2vw;
+        font-size: 3.5vw;
       }
       &::before{
         display: block;
@@ -425,8 +426,8 @@ header{
         letter-spacing: 0.2vw;
         line-height: 1.2;
         @media (max-width: 768px) {      
-          font-size: 1.5vw;
-          top: -2vw;
+          font-size: 2.5vw;
+          top: -3vw;
         }
       }
     }
@@ -442,7 +443,7 @@ header{
   p.ps_text{
     font-size: 1vw;
     @media (max-width: 768px) {      
-      font-size: 2vw;
+      font-size: 3vw;
     }
   }
 }
@@ -464,7 +465,7 @@ header{
     letter-spacing:2px;
     margin:5% auto;
     @media (max-width: 768px) {      
-      font-size: 3vw;
+      font-size: 4vw;
     }
     .icon{
       display: inline-block;
@@ -475,6 +476,9 @@ header{
       display: inline;
       font-size: 3.5vw;
       font-weight: 600;
+      @media (max-width: 768px) {      
+        font-size: 6vw;
+      }
     }
 }
 
@@ -485,6 +489,9 @@ header{
   justify-content: center;
   align-items: stretch;
   margin:2.5% auto;
+  @media (max-width: 768px) {      
+    width:100%;
+  }
   .event_box{
     position: relative;
     font-size: 2.25vw;
@@ -504,7 +511,7 @@ header{
       line-height: 1.5;
       color:#303030;
       @media (max-width: 768px) {      
-        font-size: 3vw;
+        font-size: 4vw;
       }
     }
     .date{
@@ -513,7 +520,7 @@ header{
       line-height: 1.5;
       color:#303030;
       @media (max-width: 768px) {      
-        font-size: 3vw;
+        font-size: 4vw;
       }
     }
     .club{
@@ -525,7 +532,7 @@ header{
       color:#303030;
       position: relative; 
       @media (max-width: 768px) {      
-        font-size: 3vw;
+        font-size: 4vw;
       }    
     }
   }
@@ -606,7 +613,7 @@ header{
           justify-content: space-between;
           align-items: stretch;  
           @media (max-width: 768px) {      
-            margin-bottom:3.5vw;      
+            margin: 0 auto 5vw;      
           }       
         &::after{
           display:block;
@@ -658,7 +665,7 @@ header{
           text-align: right;
           margin:-3vw 0 1vw;
           @media (max-width: 768px) {      
-            margin:-2vw 0 1vw;
+            margin:2vw 0 1vw;
           }
           a{
             text-decoration: none;
@@ -673,7 +680,7 @@ header{
               transition: all 0.25s ease-in-out;
               @media (max-width: 768px) {      
                 font-size:3vw;
-                padding:0.75vw 1vw
+                padding:0.75vw 2vw
               }
             }
             &:hover{
@@ -727,13 +734,13 @@ header{
         line-height: 1.5;  
         margin:1% 0 5%;  
         @media (max-width: 768px) {      
-          font-size: 2.5vw;
+          font-size: 3.5vw;
         }    
         .ps{
           display: inline;
           font-size: 1vw;
           @media (max-width: 768px) {      
-            font-size: 2vw;
+            font-size: 2.75vw;
           } 
         }
         .timetable_box{
@@ -743,9 +750,18 @@ header{
           justify-content: space-between;
           align-items: center;
           margin:1% 0;
+          @media (max-width: 768px) {      
+            flex-flow:column wrap;
+            justify-content: flex-start;
+            align-items: center;
+          } 
           .timetable{
             width:45%;
             position: relative;
+            @media (max-width: 768px) {      
+              width:90%;
+              margin:2.5% auto;
+            }
           }
         }
         ol{
@@ -770,9 +786,9 @@ header{
               line-height: 1.5; 
               margin-left: -1.5vw;
               @media (max-width: 768px) {      
-                font-size: 2.5vw;
+                font-size: 3.5vw;
                 margin-left: -2.5vw;
-                margin-right: 1vw;
+                margin-right: 2vw;
               } 
               &::after{
                 display: block;
@@ -786,10 +802,10 @@ header{
                 background:#303030;
                 border-radius: 50%;
                 @media (max-width: 768px) {      
-                  width:2.5vw;
-                  height: 2.5vw;
-                  left: -0.5vw;
-                  top: 0.75vw;
+                  width: 3.75vw;
+                  height: 3.75vw;
+                  left: -1vw;
+                  top: 1vw;
                 } 
               }
             }
@@ -803,7 +819,7 @@ header{
     text-align: center;
     font-size: 1vw;
     @media (max-width: 768px) {      
-      font-size: 2vw;
+      font-size: 3vw;
     } 
   }
 
@@ -911,7 +927,7 @@ footer{
 .gototop{
   width:3.5vw;
   @media (max-width: 768px) {      
-    width:5vw;
+    width:6.5vw;
   }
 }
 

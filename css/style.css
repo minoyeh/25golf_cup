@@ -453,7 +453,8 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_date {
-    font-size: 3vw;
+    font-size: 4vw;
+    letter-spacing: 0;
   }
 }
 
@@ -474,7 +475,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_info {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -504,7 +505,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_info .event_box h3 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -517,7 +518,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_info .event_box .date {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -533,7 +534,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_info .event_box .club {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -552,8 +553,8 @@ main {
 
 @media (max-width: 768px) {
   .event_w .event_info .event_box .club::before {
-    width: 3vw;
-    left: -3.5vw;
+    width: 4vw;
+    left: -4vw;
   }
 }
 
@@ -567,7 +568,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .prd_box {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -579,7 +580,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .prd_box .ntd {
-    font-size: 5vw;
+    font-size: 8vw;
   }
 }
 
@@ -592,7 +593,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w .prd_box .prd_ps {
-    font-size: 2vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -618,8 +619,8 @@ main {
 
 @media (max-width: 768px) {
   .event_w .prd_box .prd_ps::before {
-    font-size: 1.5vw;
-    top: -2vw;
+    font-size: 2.5vw;
+    top: -3vw;
   }
 }
 
@@ -640,7 +641,7 @@ main {
 
 @media (max-width: 768px) {
   .event_w p.ps_text {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -665,7 +666,7 @@ main {
 
 @media (max-width: 768px) {
   .event_award {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -681,6 +682,12 @@ main {
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .event_award span {
+    font-size: 6vw;
+  }
+}
+
 .event02_info {
   width: 95%;
   position: relative;
@@ -694,6 +701,12 @@ main {
       -ms-flex-align: stretch;
           align-items: stretch;
   margin: 2.5% auto;
+}
+
+@media (max-width: 768px) {
+  .event02_info {
+    width: 100%;
+  }
 }
 
 .event02_info .event_box {
@@ -722,7 +735,7 @@ main {
 
 @media (max-width: 768px) {
   .event02_info .event_box h3 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -735,7 +748,7 @@ main {
 
 @media (max-width: 768px) {
   .event02_info .event_box .date {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -751,7 +764,7 @@ main {
 
 @media (max-width: 768px) {
   .event02_info .event_box .club {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -879,7 +892,7 @@ main {
 
 @media (max-width: 768px) {
   .site_box .club_w .club_box .club_g {
-    margin-bottom: 3.5vw;
+    margin: 0 auto 5vw;
   }
 }
 
@@ -950,7 +963,7 @@ main {
 
 @media (max-width: 768px) {
   .site_box .club_w .club_box .club_g .btn_more {
-    margin: -2vw 0 1vw;
+    margin: 2vw 0 1vw;
   }
 }
 
@@ -973,7 +986,7 @@ main {
 @media (max-width: 768px) {
   .site_box .club_w .club_box .club_g .btn_more a span {
     font-size: 3vw;
-    padding: 0.75vw 1vw;
+    padding: 0.75vw 2vw;
   }
 }
 
@@ -1040,7 +1053,7 @@ main {
 
 @media (max-width: 768px) {
   .rules_w .rules_box ul li {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -1051,7 +1064,7 @@ main {
 
 @media (max-width: 768px) {
   .rules_w .rules_box ul li .ps {
-    font-size: 2vw;
+    font-size: 2.75vw;
   }
 }
 
@@ -1070,9 +1083,31 @@ main {
   margin: 1% 0;
 }
 
+@media (max-width: 768px) {
+  .rules_w .rules_box ul li .timetable_box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .rules_w .rules_box ul li .timetable_box .timetable {
   width: 45%;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .rules_w .rules_box ul li .timetable_box .timetable {
+    width: 90%;
+    margin: 2.5% auto;
+  }
 }
 
 .rules_w .rules_box ul li ol {
@@ -1108,9 +1143,9 @@ main {
 
 @media (max-width: 768px) {
   .rules_w .rules_box ul li ol li span {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     margin-left: -2.5vw;
-    margin-right: 1vw;
+    margin-right: 2vw;
   }
 }
 
@@ -1129,10 +1164,10 @@ main {
 
 @media (max-width: 768px) {
   .rules_w .rules_box ul li ol li span::after {
-    width: 2.5vw;
-    height: 2.5vw;
-    left: -0.5vw;
-    top: 0.75vw;
+    width: 3.75vw;
+    height: 3.75vw;
+    left: -1vw;
+    top: 1vw;
   }
 }
 
@@ -1144,7 +1179,7 @@ main {
 
 @media (max-width: 768px) {
   .rules_w .ps_text {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 }
 
@@ -1300,7 +1335,7 @@ footer .footer_w .fb_box a {
 
 @media (max-width: 768px) {
   .gototop {
-    width: 5vw;
+    width: 6.5vw;
   }
 }
 
