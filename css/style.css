@@ -51,6 +51,12 @@ h2 {
   font-weight: 500;
 }
 
+@media (max-width: 992px) {
+  h2 {
+    font-size: 3vw;
+  }
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 4vw;
@@ -90,7 +96,7 @@ p {
 
 @media (max-width: 992px) {
   p {
-    font-size: 1.5vw;
+    font-size: 1.75vw;
     line-height: 1.5;
   }
 }
@@ -235,6 +241,12 @@ header nav ul li a div {
   letter-spacing: 2px;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  header nav ul li a div {
+    font-size: 1.75vw;
+  }
 }
 
 header nav ul li a:hover div {
@@ -435,6 +447,12 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+  .event_w h2 {
+    width: 35%;
+  }
+}
+
 @media (max-width: 768px) {
   .event_w h2 {
     width: 35%;
@@ -449,6 +467,13 @@ main {
   text-align: center;
   letter-spacing: 2px;
   margin: 5% auto;
+}
+
+@media (max-width: 992px) {
+  .event_w .event_date {
+    font-size: 3vw;
+    letter-spacing: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -471,6 +496,12 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin: 2.5% auto;
+}
+
+@media (max-width: 992px) {
+  .event_w .event_info {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -501,6 +532,12 @@ main {
   font-weight: 500;
   line-height: 1.5;
   color: #043300;
+}
+
+@media (max-width: 992px) {
+  .event_w .event_info .event_box h3 {
+    font-size: 2.5vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -566,6 +603,12 @@ main {
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  .event_w .prd_box {
+    font-size: 3vw;
+  }
+}
+
 @media (max-width: 768px) {
   .event_w .prd_box {
     font-size: 4vw;
@@ -576,6 +619,12 @@ main {
   display: inline;
   font-size: 4vw;
   font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .event_w .prd_box .ntd {
+    font-size: 6vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -589,6 +638,12 @@ main {
   font-size: 1.5vw;
   font-weight: bold;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  .event_w .prd_box .prd_ps {
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -617,6 +672,13 @@ main {
   line-height: 1.2;
 }
 
+@media (max-width: 992px) {
+  .event_w .prd_box .prd_ps::before {
+    font-size: 1.5vw;
+    top: -2vw;
+  }
+}
+
 @media (max-width: 768px) {
   .event_w .prd_box .prd_ps::before {
     font-size: 2.5vw;
@@ -629,6 +691,12 @@ main {
   margin: 2% auto;
 }
 
+@media (max-width: 992px) {
+  .event_w .btn_add {
+    width: 28%;
+  }
+}
+
 @media (max-width: 768px) {
   .event_w .btn_add {
     width: 25%;
@@ -637,6 +705,12 @@ main {
 
 .event_w p.ps_text {
   font-size: 1vw;
+}
+
+@media (max-width: 992px) {
+  .event_w p.ps_text {
+    font-size: 1.5vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -664,6 +738,12 @@ main {
   margin: 5% auto;
 }
 
+@media (max-width: 992px) {
+  .event_award {
+    font-size: 3vw;
+  }
+}
+
 @media (max-width: 768px) {
   .event_award {
     font-size: 4vw;
@@ -680,6 +760,12 @@ main {
   display: inline;
   font-size: 3.5vw;
   font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .event_award span {
+    font-size: 5vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -731,6 +817,12 @@ main {
   font-weight: 500;
   line-height: 1.5;
   color: #303030;
+}
+
+@media (max-width: 992px) {
+  .event02_info .event_box h3 {
+    font-size: 2.5vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -793,6 +885,12 @@ main {
   position: relative;
   width: 19.9%;
   margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .site_w h2 {
+    width: 28%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -928,6 +1026,12 @@ main {
   color: #134077;
 }
 
+@media (max-width: 992px) {
+  .site_box .club_w .club_box .club_g .club_info h3 {
+    font-size: 3vw;
+  }
+}
+
 @media (max-width: 768px) {
   .site_box .club_w .club_box .club_g .club_info h3 {
     font-size: 5vw;
@@ -940,7 +1044,13 @@ main {
   font-weight: 400;
   line-height: 1.5;
   color: #134077;
-  margin-top: 2% 0;
+  margin-top: 2%;
+}
+
+@media (max-width: 992px) {
+  .site_box .club_w .club_box .club_g .club_info .club_about {
+    font-size: 1.75vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -983,6 +1093,12 @@ main {
   transition: all 0.25s ease-in-out;
 }
 
+@media (max-width: 992px) {
+  .site_box .club_w .club_box .club_g .btn_more a span {
+    font-size: 1.75vw;
+  }
+}
+
 @media (max-width: 768px) {
   .site_box .club_w .club_box .club_g .btn_more a span {
     font-size: 3vw;
@@ -1020,6 +1136,12 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 992px) {
+  .rules_w h2 {
+    width: 35%;
+  }
+}
+
 @media (max-width: 768px) {
   .rules_w h2 {
     width: 35%;
@@ -1051,6 +1173,12 @@ main {
   margin: 1% 0 5%;
 }
 
+@media (max-width: 992px) {
+  .rules_w .rules_box ul li {
+    font-size: 1.75vw;
+  }
+}
+
 @media (max-width: 768px) {
   .rules_w .rules_box ul li {
     font-size: 3.5vw;
@@ -1060,6 +1188,12 @@ main {
 .rules_w .rules_box ul li .ps {
   display: inline;
   font-size: 1vw;
+}
+
+@media (max-width: 992px) {
+  .rules_w .rules_box ul li .ps {
+    font-size: 1.5vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1141,6 +1275,14 @@ main {
   margin-left: -1.5vw;
 }
 
+@media (max-width: 992px) {
+  .rules_w .rules_box ul li ol li span {
+    font-size: 1.75vw;
+    margin-left: -1.75vw;
+    margin-right: 0.5vw;
+  }
+}
+
 @media (max-width: 768px) {
   .rules_w .rules_box ul li ol li span {
     font-size: 3.5vw;
@@ -1162,6 +1304,15 @@ main {
   border-radius: 50%;
 }
 
+@media (max-width: 992px) {
+  .rules_w .rules_box ul li ol li span::after {
+    width: 1.75vw;
+    height: 1.75vw;
+    left: -0.45vw;
+    top: 0.45vw;
+  }
+}
+
 @media (max-width: 768px) {
   .rules_w .rules_box ul li ol li span::after {
     width: 3.75vw;
@@ -1177,6 +1328,12 @@ main {
   font-size: 1vw;
 }
 
+@media (max-width: 992px) {
+  .rules_w .ps_text {
+    font-size: 1.5vw;
+  }
+}
+
 @media (max-width: 768px) {
   .rules_w .ps_text {
     font-size: 3vw;
@@ -1186,6 +1343,12 @@ main {
 .rules_w .btn_add {
   width: 15.8%;
   margin: 2% auto;
+}
+
+@media (max-width: 992px) {
+  .rules_w .btn_add {
+    width: 28%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1211,6 +1374,12 @@ footer .footer_w {
   width: 70%;
   position: relative;
   margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  footer .footer_w {
+    width: 78%;
+  }
 }
 
 @media (max-width: 768px) {
