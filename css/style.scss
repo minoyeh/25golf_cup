@@ -940,18 +940,28 @@ footer{
       display: flex;
       justify-content: space-between;
       align-items: center;
+      @media (max-width: 768px) {  
+        flex-flow:column wrap;
+        justify-content:flex-start;
+        align-items: flex-start;
+      }
       span{
         width:50%;
         border-right:1px solid #303030;
         font-size: 2vw;
         line-height: 1.5;
-        @media (max-width: 768px) {      
-          font-size: 2.5vw;
+        @media (max-width: 768px) {  
+          width:100%;    
+          font-size: 3.5vw;
           letter-spacing: 0;
+          border-right:none;
         }
         &:last-child{
           border:none;
           text-align: right;
+          @media (max-width: 768px) {      
+            text-align:left;
+          }
         }
       }
     }
@@ -960,15 +970,21 @@ footer{
       line-height: 1.5;
       text-align: center;
       @media (max-width: 768px) {      
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         margin:2% 0;
+        text-align:left;
       }
       div{
         display: inline;
         font-size: 2vw;
         line-height: 1.5;
-        @media (max-width: 768px) {      
-          font-size: 2.5vw;
+        @media (max-width: 768px) { 
+          //display: inline;
+          width:auto;
+          font-size: 3.5vw;
+          &:nth-child(1){
+            display:block;
+          }
         }
         span{
           display: inline;
@@ -976,7 +992,7 @@ footer{
           line-height: 1.5;
           color:#9b0712;
           @media (max-width: 768px) {      
-            font-size: 2.5vw;
+            font-size: 3.5vw;
           }
           a{
             display: inline;
@@ -984,7 +1000,7 @@ footer{
             color:#9b0712;
             text-decoration: none;
             @media (max-width: 768px) {      
-              font-size: 2.5vw;
+              font-size: 3.5vw;
               letter-spacing: 0;
             }
           }
@@ -996,15 +1012,17 @@ footer{
       line-height: 1.5;
       text-align: center;
       @media (max-width: 768px) {      
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+        text-align:left;
       }
       a{
         display: inline;
         font-size: 2vw;
         color:#0d2b75;
         text-decoration: none;
-        @media (max-width: 768px) {      
-          font-size: 2.5vw;
+        @media (max-width: 768px) { 
+          display:block;     
+          font-size: 3.5vw;
           letter-spacing: 0;
         }
       }
@@ -1015,8 +1033,8 @@ footer{
 .gototop{
   width:3.5vw;
   @media (max-width: 768px) {      
-    width:6.5vw;
-    bottom:2vw;
+    width:8.5vw;
+    bottom:3.5vw;
   }
 }
 

@@ -1401,6 +1401,21 @@ footer .footer_w .organizer_box {
           align-items: center;
 }
 
+@media (max-width: 768px) {
+  footer .footer_w .organizer_box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 footer .footer_w .organizer_box span {
   width: 50%;
   border-right: 1px solid #303030;
@@ -1410,14 +1425,22 @@ footer .footer_w .organizer_box span {
 
 @media (max-width: 768px) {
   footer .footer_w .organizer_box span {
-    font-size: 2.5vw;
+    width: 100%;
+    font-size: 3.5vw;
     letter-spacing: 0;
+    border-right: none;
   }
 }
 
 footer .footer_w .organizer_box span:last-child {
   border: none;
   text-align: right;
+}
+
+@media (max-width: 768px) {
+  footer .footer_w .organizer_box span:last-child {
+    text-align: left;
+  }
 }
 
 footer .footer_w .contact_box {
@@ -1428,8 +1451,9 @@ footer .footer_w .contact_box {
 
 @media (max-width: 768px) {
   footer .footer_w .contact_box {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     margin: 2% 0;
+    text-align: left;
   }
 }
 
@@ -1441,7 +1465,11 @@ footer .footer_w .contact_box div {
 
 @media (max-width: 768px) {
   footer .footer_w .contact_box div {
-    font-size: 2.5vw;
+    width: auto;
+    font-size: 3.5vw;
+  }
+  footer .footer_w .contact_box div:nth-child(1) {
+    display: block;
   }
 }
 
@@ -1454,7 +1482,7 @@ footer .footer_w .contact_box div span {
 
 @media (max-width: 768px) {
   footer .footer_w .contact_box div span {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -1467,7 +1495,7 @@ footer .footer_w .contact_box div span a {
 
 @media (max-width: 768px) {
   footer .footer_w .contact_box div span a {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     letter-spacing: 0;
   }
 }
@@ -1480,7 +1508,8 @@ footer .footer_w .fb_box {
 
 @media (max-width: 768px) {
   footer .footer_w .fb_box {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    text-align: left;
   }
 }
 
@@ -1493,7 +1522,8 @@ footer .footer_w .fb_box a {
 
 @media (max-width: 768px) {
   footer .footer_w .fb_box a {
-    font-size: 2.5vw;
+    display: block;
+    font-size: 3.5vw;
     letter-spacing: 0;
   }
 }
@@ -1504,8 +1534,8 @@ footer .footer_w .fb_box a {
 
 @media (max-width: 768px) {
   .gototop {
-    width: 6.5vw;
-    bottom: 2vw;
+    width: 8.5vw;
+    bottom: 3.5vw;
   }
 }
 
