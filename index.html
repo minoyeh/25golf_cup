@@ -44,7 +44,7 @@
 <div class="kv_w">
   <header>    
     <div class="logo_box">
-      <a href="" target="_blank">
+      <a href="https://japan-boost-travel.com/C/standard-home" target="_blank">
         <img src="images/logo.png" alt="JAPAN BOOST TRAVEL">
       </a>
     </div>
@@ -165,7 +165,7 @@
         早鳥快鳥專案 ： NTD<span class="ntd">36,500</span><span class="prd_ps">元起/每人</span>
       </div>
       <div class="btn_add" data-aos="fade-in">
-        <a href="" target="_blank"><img src="images/s02/btn_add.png" alt="立即報名" class=" btn_style"></a>
+        <a href="#footer"><img src="images/s02/btn_add.png" alt="立即報名" class=" btn_style"></a>
       </div>
       <p class="ps_text" data-aos="fade-in">※主辦單位保留活動異動之權利。</p>
     </div>
@@ -245,7 +245,7 @@
               </div>
               
               <div class="btn_more">
-                <a href="" target="_blank">
+                <a href="https://www.okinawaresort-orion.com/hantai/" target="_blank">
                   <span>more</span>
                 </a>
               </div>
@@ -260,7 +260,7 @@
               </div>
               
               <div class="btn_more">
-                <a href="" target="_blank">
+                <a href="https://kariyushihotelstaipei.weebly.com/2223526143-246813201326449-277983236121916298273029024535280232876028193205513915124215.html" target="_blank">
                   <span>more</span>
                 </a>
               </div>
@@ -312,7 +312,7 @@
 
       <div class="ps_text" data-aos="fade-in">***服務費必須於支付團費時一同繳付***</div>
       <div class="btn_add" data-aos="fade-in">
-        <a href="" target="_blank"><img src="images/s02/btn_add.png" alt="立即報名" class=" btn_style"></a>
+        <a href="#footer"><img src="images/s02/btn_add.png" alt="立即報名" class=" btn_style"></a>
       </div>
 
     </div>
@@ -320,7 +320,7 @@
 
 </main>
 
-<footer  class="lazyload">
+<footer  class="lazyload" id="footer">
   <div class="footer_w">
     <div class="organizer_box">
       <span>主辦單位：Japan Boost Travel</span>
@@ -403,7 +403,9 @@
     $('.menu05').click(function(){
        $('html,body').animate({scrollTop:$('#s05').offset().top}, 800);
     });
-    
+    $('.btn_add').click(function(){
+       $('html,body').animate({scrollTop:$('#footer').offset().top}, 800);
+    });
     $('.gototop').click(function(){
        $('html,body').animate({scrollTop:$('#top').offset().top}, 800);
     });    
