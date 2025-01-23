@@ -929,70 +929,46 @@ footer{
     width:70%;//w1410
     position: relative;
     margin:0 auto; //outline: 1px solid #f00;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
     @media (max-width: 992px) {      
-      width:78%;
+      width:85%;
     }
     @media (max-width: 768px) {      
       width:90%;
+      flex-flow:column wrap;
+      justify-content:flex-start;
+      align-items:flex-start;
     }
-    .organizer_box{
-      position: relative;
+    .contact_list{
+      width:57.8%;
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      @media (max-width: 768px) {  
-        flex-flow:column wrap;
-        justify-content:flex-start;
-        align-items: flex-start;
-      }
-      span{
-        width:50%;
-        border-right:1px solid #303030;
-        font-size: 2vw;
-        line-height: 1.5;
-        @media (max-width: 768px) {  
-          width:100%;    
-          font-size: 3.5vw;
-          letter-spacing: 0;
-          border-right:none;
-        }
-        &:last-child{
-          border:none;
-          text-align: right;
-          @media (max-width: 768px) {      
-            text-align:left;
-          }
-        }
-      }
-    }
-    .contact_box{
-      font-size: 2vw;
-      line-height: 1.5;
-      text-align: center;
+      flex-flow:row wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
       @media (max-width: 768px) {      
-        font-size: 3.5vw;
-        margin:2% 0;
-        text-align:left;
+        width:85%;
       }
-      div{
-        display: inline;
+
+      span{
+        display: inline-block;
+        width:auto;
         font-size: 2vw;
         line-height: 1.5;
-        @media (max-width: 768px) { 
-          //display: inline;
-          width:auto;
+        @media (max-width: 768px) {      
           font-size: 3.5vw;
-          &:nth-child(1){
-            display:block;
-          }
         }
-        span{
-          display: inline;
+      }
+      ul{
+        list-style-type: none;
+        li{
           font-size: 2vw;
           line-height: 1.5;
-          color:#9b0712;
           @media (max-width: 768px) {      
             font-size: 3.5vw;
+            letter-spacing: 0;
           }
           a{
             display: inline;
@@ -1006,27 +982,79 @@ footer{
           }
         }
       }
-    }
-    .fb_box{
-      font-size: 2vw;
-      line-height: 1.5;
-      text-align: center;
-      @media (max-width: 768px) {      
-        font-size: 3.5vw;
-        text-align:left;
-      }
-      a{
-        display: inline;
+      .line_id{
+        position: relative;
+        width:100%;
         font-size: 2vw;
-        color:#0d2b75;
-        text-decoration: none;
-        @media (max-width: 768px) { 
-          display:block;     
+        line-height: 1.5;
+        @media (max-width: 768px) {      
           font-size: 3.5vw;
           letter-spacing: 0;
+        }        
+        span{
+          display: inline;
+          font-size: 1vw;
+          @media (max-width:992px) {                 
+            font-size:1.25vw;
+          }
+          @media (max-width: 768px) { 
+                
+            font-size:2.5vw;
+            letter-spacing: 0;
+          }
         }
       }
     }
+
+    .media_list{
+      width:40.6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media (max-width: 768px) { 
+        width:85%;
+        margin-top:5%;
+      }
+      .media_box{
+        width:30.3%;
+        .qrcode{
+          position: relative;
+          @media (max-width: 768px) { 
+            display: none;
+          }
+        }
+        .media_info{
+          position: relative;
+          margin-top:5%;
+          a{
+            text-decoration: none;
+            span{
+              font-size: 1.15vw;
+              line-height: 1.5;
+              text-align: center;
+              color:#fff;
+              background:#2c998e;
+              transition: all 0.25s ease-in-out;
+              @media (max-width:992px) {                 
+                font-size:1.5vw;
+              }
+              @media (max-width: 768px) { 
+                font-size: 3.5vw;
+              }
+            }
+            &:hover{
+              span{
+                color:#2c998e;
+                background:#fff;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+
+
   }
 }
 
