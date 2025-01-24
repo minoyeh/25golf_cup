@@ -1266,6 +1266,7 @@ footer .footer_w .media_list .media_box .media_info a span {
 @media (max-width: 768px) {
   footer .footer_w .media_list .media_box .media_info a span {
     font-size: 3.5vw;
+    padding: 5% 0;
   }
 }
 footer .footer_w .media_list .media_box .media_info a:hover span {
