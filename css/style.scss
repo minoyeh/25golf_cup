@@ -29,7 +29,8 @@ h2{
     font-size:3vw;
   }
   @media (max-width: 768px) {      
-    font-size:4vw;
+    font-size:6vw;
+    letter-spacing: 5px;
   } 
 }
 h3{
@@ -326,8 +327,8 @@ header{
       letter-spacing: 0;
     } 
     @media (max-width: 768px) {      
-      font-size: 4vw;
-      letter-spacing: 0;
+      font-size: 6vw;
+      letter-spacing: 5px;
     }  
   }
   .event_info{
@@ -520,12 +521,16 @@ header{
       font-size: 3vw;
     } 
     @media (max-width: 768px) {      
-      font-size: 4vw;
+      font-size: 5.5vw;
     }
     .icon{
       display: inline-block;
       width:11.7%;
       vertical-align: bottom;
+      @media (max-width: 768px) {      
+        display:block;
+        margin: 0 auto;
+      }
     }
     span{
       display: inline;
@@ -535,7 +540,7 @@ header{
         font-size: 5vw;
       } 
       @media (max-width: 768px) {      
-        font-size: 6vw;
+        font-size:8vw;
       }
     }
 }
