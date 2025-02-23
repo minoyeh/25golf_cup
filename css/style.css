@@ -488,7 +488,7 @@ main {
 @media (max-width: 768px) {
   .event_w .event_date {
     font-size: 6vw;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
   }
 }
 
